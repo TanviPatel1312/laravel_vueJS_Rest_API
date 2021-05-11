@@ -16,10 +16,9 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = Category::latest()->get();
-        return response()->json($categories,200);
+//        $categories = Category::latest()->get();
+//        return response()->json($categories,200);
     }
-
     /**
      * Show the form for creating a new resource.
      *
